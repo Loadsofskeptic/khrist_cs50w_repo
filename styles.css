@@ -1,0 +1,117 @@
+/* advanced_search style */
+
+/*
+On the Google Advanced Search page, the user should be able to provide input for the following four fields (taken from Google’s own advanced search options)
+Find pages with… “all these words:”
+Find pages with… “this exact word or phrase:”
+Find pages with… “any of these words:”
+Find pages with… “none of these words:”
+
+Like Google’s own Advanced Search page, the four options should be stacked vertically, and all of the text fields should be left aligned.
+Consistent with Google’s own CSS, the “Advanced Search” button should be blue with white text.
+When the “Advanced Search” button is clicked, the user should be taken to the search results page for their given query.
+Add an “I’m Feeling Lucky” button to the main Google Search page. Consistent with Google’s own behavior, clicking this link should take users directly to the first Google search result for the query, bypassing the normal results page.
+You may encounter a redirect notice when using the “I’m Feeling Lucky” button. Not to worry! This is an expected consequence of a security feature implemented by Google.
+*/
+
+/* universal selectors */
+.text-outline
+{
+    float: left;
+    font-family: "arial";
+    font-size: 16px;
+    color: #333;
+    height: 30px;
+    display: table-cell;
+    vertical-align: center;
+}
+
+.thirteen-font-size
+{
+    font-size: 13px;
+    font-family: arial;
+}
+
+/*header part */
+
+#advanced-search-text {
+    color: #d93025;
+    font-size: 20px;
+    font-family: "Arial";
+}
+
+#footer-margin {
+    line-height: 18px;
+}
+
+div {
+    display: block;
+}
+
+#line_for_head {
+    border-bottom: 1px solid #ebebeb;
+    width: 99%;
+    padding: 25px 35px;
+}
+
+.div-text-label {
+    width:16%;
+    float: left;
+    display: inline-block;
+    min-width: 167px;
+    width: 16%;
+    height: 42px;
+    color: #222;
+    font-size: 13px;
+    line-height: 16px;
+    vertical-align: middle;
+}
+
+/*body part */
+
+#find-pages-div div {
+    height: 30px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#body_cover {
+    padding: 25px 35px;
+}
+
+
+/* footer part */
+
+#not-a-footer div a:hover
+{
+    text-decoration: underline;
+    /*none*/
+}
+#not-a-footer div a
+{
+    font-family: "Arial";
+    font-size: 13px;
+    /*none*/
+}
+
+a
+{
+    text-decoration: none;
+}
+
+#an-actual-footer
+{
+    padding: 0 8px;
+    line-height: 40px;
+    width: 100%;
+    background-color: #f2f2f2;
+    bottom: 0;
+}
+
+#an-actual-footer a
+{
+    color: #70757a;
+    font-family: "Arial";
+    padding-left: 27px;
+    font-size: 14px;
+}
