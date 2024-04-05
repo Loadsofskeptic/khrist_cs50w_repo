@@ -15,15 +15,24 @@ You may encounter a redirect notice when using the “I’m Feeling Lucky” but
 */
 
 /* universal selectors */
+@media (max-width: 1056px){
+    .text-label-2, div .pre-format, #included-exception{
+        display: none !important;
+    }
+}
+
 .text-outline
 {
+    min-width: 167px;
+    width:16%;
     float: left;
+    display: inline-block;
     font-family: "arial";
     font-size: 16px;
     color: #333;
     height: 30px;
-    display: table-cell;
-    vertical-align: center;
+    line-height: 16px;
+    vertical-align: middle;
 }
 
 .thirteen-font-size
@@ -54,12 +63,29 @@ div {
     padding: 25px 35px;
 }
 
-.div-text-label {
+
+
+/*body part */
+.div-text-label 
+{
+    height: 30px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.pre-format {
+    margin: 0;
+    font-family: monospace;
+    white-space: pre;
+    color: #666;
+    font-size: 11px;
+}
+
+.text-label {
     width:16%;
     float: left;
     display: inline-block;
     min-width: 167px;
-    width: 16%;
     height: 42px;
     color: #222;
     font-size: 13px;
@@ -67,7 +93,26 @@ div {
     vertical-align: middle;
 }
 
-/*body part */
+#line-for-body {
+    margin: 18px 0;
+    clear: both;
+    border-top: 1px solid #ebebeb;
+}
+
+.text-label-2 
+{
+    float: left;
+    display: inline-block;
+    width: 32%;
+    min-width: 160px;
+    margin: 0 0 8px 1%;
+    color: #555;
+    font-size: 11px;
+    padding-left: 5px;
+    vertical-align: middle;
+    position: relative;
+}
+
 
 #find-pages-div div {
     height: 30px;
@@ -79,6 +124,38 @@ div {
     padding: 25px 35px;
 }
 
+.text-input {
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+}
+
+.actual-text-input {
+    float: left;
+    display: inline-block;
+    min-width: 167px;
+    min-height: 41px;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.actual-text-input-2 {
+    float: left;
+    display: inline-block;
+    min-width: 167px;
+    min-height: 41px;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.actual-actual-text-input
+{
+    width: 100%;
+    text-align: left; 
+}
 
 /* footer part */
 

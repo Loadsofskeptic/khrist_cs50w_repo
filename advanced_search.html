@@ -7,31 +7,58 @@
     <body>
         <a href = "index.html">go back to google search</a>
         <a href = "google_image.html">go to google find images</a>
-        
         <div id = "line_for_head"><span id = "advanced-search-text">Advanced Search</span></div>
         <div id = "body_cover">
             <form action="https://www.google.com/search">
-                <div class = "text-outline" style = "margin-right: auto;"><span>Find pages with...</span></div><div style = "max-width: 50%;" class = "thirteen-font-size"><span>To do this in the search box</span></div>
+                <div class = "text-outline" style = "float: left;">
+                    <span>Find pages with...</span>
+                </div>
+                <div class = "actual-text-input"></div>
+                    <div style = "padding-left: 5px; vertical-align: middle; font-weight: 700; color: #777; float: left; display: inline-block; margin-left: 1%;" class = "thirteen-font-size">
+                        <div id = "included-exception"style = "display: inline; float: left; vertical-align: middle;">To do this in the search box</div>
+                    </div>
                     <div class = "thirteen-font-size">
-                        <div id = "find-pages-div" style = "clear: left;">
-                            <div style = "display: block; clear: both;">
-                                <span style = "display: inline;">all these words: <input type = "text" name = "as_q"></span>
-                                <span style = "display: inline; margin-left: auto;">Type the important words:   tricolor rat terrier</span>
+                        <div id = "find-pages-div" style = "clear: both;">
+                            <div style = "display: block; clear: both;" class = "div-text-label">
+                                <div class = "text-label">all these words:</div><div class = "actual-text-input"><input type = "text" class = "text-input actual-actual-text-input" name = "as_q"></div></span>
+                                <div class = "text-label-2"><div style = "display: inline; padding: 3%;" >Type the important words:</div><div style = "display: inline;  padding: .5%;" class = "pre-format">tricolor rat terrier</div></div>
                             </div>
-                            <div>this exact word or phrase: <input type = "text" name = "as_epq"></div>
-                            Put exact words in quotes:  "rat terrier" 
+                            <div style = "display: block; clear: both;" class = "div-text-label">
+                                <div class = "text-label">this exact word or phrase: </div><div class = "actual-text-input"><input type = "text" class = "text-input actual-actual-text-input" name = "as_epq"></div>
+                                <div class = "text-label-2"><div style = "display: inline; padding: 3%;">Put exact words in quotes:</div><div style = "display: inline;  padding: .5%;"><span class = "pre-format">"rat terrier"</span></div></div>
+                            </div>
+                                
                             
-                            <div>any of these words: <input type = "text" name = "as_oq"></div>
-                            Type OR between all the words you want:  miniature OR standard
+                            <div style = "display: block; clear: both;" class = "div-text-label">
+                                <div class = "text-label">any of these words: </div><div class = "actual-text-input"><input type = "text" class = "text-input actual-actual-text-input" name = "as_oq"></div>
+                                <div class = "text-label-2"><div style = "display: inline; padding: 3%;">Type <div class = "pre-format" style = "display: inline;">OR</div> between all the words you want:</div><div style = "display: inline;  padding: 0.5%;"><span class = "pre-format">miniature OR standard</span></div></div>
+                            </div>
                             
-                            <div>none of these words:<input type = "text" name = "as_eq"></div>
-                            Put a minus sign just before words you don't want:  -rodent, -"Jack Russell"
+                            <div style = "display: block; clear: both;" class = "div-text-label">
+                                <div class = "text-label">none of these words:</div><div class = "actual-text-input"><input type = "text" class = "text-input actual-actual-text-input" name = "as_eq"></div>
+                                <div class = "text-label-2"><div style = "display: inline; padding: 3%;">Put a minus sign just before words you don't want: </div><div style = "display: inline;  padding: 3%;"><span class = "pre-format"> -rodent, -"Jack Russell"</span></div></div>
+                            </div>
                             
-                            <div>numbers ranging from: <input type = "text" name = "as_nlo"> to <input type = "text" name = "as_nhi"></div>
-                            Put 2 periods between the numbers and add a unit of measure: 10..35 lb, $300..$500, 2010..2011                
+                            <div style = "display: block; clear: both;" class = "div-text-label">
+                                <div class = "text-label">numbers ranging from: </div>
+                                <div class = "actual-text-input" style = "position: relative;">
+                                    <div style = "display: table; width: 100%;">
+                                        <div style = "padding-right: 16px; display: table-cell; vertical-align: middle;">
+                                            <input type = "text" class = "actual-actual-text-input text-input" name = "as_nlo">
+                                        </div>
+                                        <div style = "display: table-cell; text-align: center; font-size: 13px; padding-left:6px; padding-right:6px; width: 40px;">to</div>
+                                        <div style = "display: table-cell; vertical-align: middle;">
+                                            <input type = "text" class = "actual-actual-text-input text-input" name = "as_nhi">
+                                        </div>
+                                    </div>
+                                </div>
+                                        <div class = "text-label-2"><div style = "display: inline;  padding: 3%;">Put 2 periods between the numbers and add a unit of measure: </div><div style = "display: inline;  padding: 3%;"><span  class = "pre-format" style = "display: inline; margin-left: auto;"> 10..35 lb, $300..$500, 2010..2011</span></div></div>             
                             </div>
                         </div>
-                    <div class = "text-outline"><span>Then narrow your results by...</span></div>
+                    <div id = "line-for-body"></div>
+                    <div class = "text-outline" style = "float: left;">
+                        <span>Then narrow your results by...</span>
+                    </div>
 
                     <div style = "clear: both;">language: <select name = "lr">
                         <option>any language</option>  
