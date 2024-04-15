@@ -1,5 +1,17 @@
+.search-box
+{
+    height: 40px;
+    width: 50%;
+    border-radius: 30px;
+}
+
+.search-box:hover {
+    box-shadow: inset 50px 100px #70757a ;
+}
+
 div {
-    border: solid;
+    border-color: rgba(0,0,0,0.1);
+    border-style:inset;
     display: inline-block;
 }
 
