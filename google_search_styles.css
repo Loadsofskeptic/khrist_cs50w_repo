@@ -1,20 +1,48 @@
+body {
+    font-family: "Arial";
+}
+
 .search-box
 {
     height: 40px;
     width: 50%;
     border-radius: 30px;
+    background-color: white;
 }
 
-.search-box:hover {
-    box-shadow: inset 50px 100px #70757a ;
+.search-box:hover{
+    z-index: -3;
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    border-color: transparent;
+}
+
+.cool-button-class:hover
+{
+    z-index: -3;
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    border-color: transparent;
+}
+.cool-button-class {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    align-content: center;
 }
 
 div {
-    border-color: rgba(0,0,0,0.1);
-    border-style:inset;
     display: inline-block;
 }
-
 
 #an-actual-footer
 {
@@ -26,12 +54,20 @@ div {
     margin-left: -2.5em;
     margin-bottom: -1em;
     display: block;
+    border-top-style: solid;
+    border-top-width: thin;
+    border-top-color: #d2d2d2;
 }
 
 #an-actual-footer a
 {
-    color: #70757a;
+    color: #1f1f1f;
     font-family: "Arial";
     padding-left: 27px;
     font-size: 14px;
+    text-decoration: none;
+}
+
+#an-actual-footer a:hover {
+    text-decoration:underline;
 }

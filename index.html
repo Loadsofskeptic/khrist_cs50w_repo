@@ -5,72 +5,71 @@
         <title>Google Search</title>
     </head>
     <body>
-        <div style = "width: 100%; height: auto; padding-top: 20px; padding-bottom: 20px; border: solid; vertical-align: center; display: table;">
+        <div style = "width: 100%; height: auto; padding-top: 20px; padding-bottom: 20px; border: transparent; vertical-align: center; display: table;">
             <div style = "float: right; margin: 0; padding: 0;">
-                
-<a href = "advanced_search.html">
+                <a href = "advanced_search.html" style = "padding: 10px; text-decoration: none; color: black; font-size: 14px;">
                     Google Advanced Search Page
                 </a>
-                
-<a href = "google_image.html">
+                <a href = "google_image.html" style = "padding: 10px; text-decoration: none; color: black; font-size: 14px;">
                     Google Images
                 </a>
             </div>
         </div>
-        <div style = "display:block;">
+        <div style = "display:block; margin: 4em auto;">
             <div style = "display: block; padding: 1em 0; margin: 1em auto; width: 100%;">
-                <a href = "https://youtube.com"><img style = "display: block; margin: 0 auto; height: 92px; width: 272px;" src = "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"></a>
+                <a href = "index.html"><img style = "display: block; margin: 0 auto; height: 92px; width: 272px;" src = "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"></a>
             </div>
             <form action="https://www.google.com/search">
-                <div style = "clear: both; display: flex; margin: 0 auto; min-height: 44px; max-width: 584px;" class = "search-box">
-                    
-                    <div style = "display: flexbox; align-content: center;">
-                        <img src = "https://icones.pro/wp-content/uploads/2021/02/loupe-et-icone-de-recherche-de-couleur-grise.png" style = "width: 20px; height: 20px;">
-                    </div>
-                    <div style = "display: flexbox; align-content: center;">
-                        <input type="text" name = "q" style = "display: inline-block; width: auto; line-height: 22px; border: transparent; overflow-x: hidden; margin: 8px 0; line-height: 22px; outline: none; width: 440px;">
-                    </div>
-                    <div style = "display: flexbox; align-content: center;">
-                        <img src = "https://i.pinimg.com/originals/ea/5f/5b/ea5f5bd3b4110f2afb958049b4096d3a.png" style = "height: 24px; width: 24px; margin: auto 0; padding: 0;">
-                    </div>
-                    <div style = "display: flexbox; align-content: center;">
-                        <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Google_Lens_Icon.svg/640px-Google_Lens_Icon.svg.png" style = "display: flexbox; align-items: center; height: 24px; width: 24px; margin: auto 0; padding: 0;">
+                <div style = "clear: both; display: flex; margin: 1.25em auto 1.25em auto; min-height: 44px; max-width: 584px; border: 1px solid #dfe1e5;" class = "search-box">
+                    <div style = "display: flexbox; align-content: center; margin-left: auto; margin-right: auto; padding: 0 0.5em;">
+                        <div style = "display: flexbox; align-items: center;">
+                            <img src = "https://icones.pro/wp-content/uploads/2021/02/loupe-et-icone-de-recherche-de-couleur-grise.png" style = "width: 20px; height: 20px; vertical-align: middle;">
+                        </div>
+                        <div style = "display: flexbox;">
+                            <input type="text" name = "q" style = "display: inline-block; width: auto; line-height: 22px; border: transparent; overflow-x: hidden; margin: 8px 0; line-height: 22px; outline: none; width: 440px;">
+                        </div>
+                        <div style = "display: flexbox; align-content: center;">
+                            <img src = "https://i.pinimg.com/originals/ea/5f/5b/ea5f5bd3b4110f2afb958049b4096d3a.png" style = "height: 24px; width: 24px; margin: auto 0.5em; padding: 0; vertical-align: middle;">
+                        </div>
+                        <div style = "display: flexbox; align-content: center;">
+                            <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Google_Lens_Icon.svg/640px-Google_Lens_Icon.svg.png" style = "display: flexbox; align-items: center; height: 24px; width: 24px; margin: auto 0.25em; padding: 0; vertical-align: middle;">
+                        </div>
                     </div>
                 </div>
-                <div style = "display: block; margin:auto; width: 25%; height: auto; clear: both;">
-                    <div style = "display: inline-block; margin: auto; padding: 0.5%;;">
-                        <input type="submit" value="Google Search" name = "btnK" style= "border: transparent; ">
+                <div style = "display: flex; margin:auto; width: 20%; height: auto; clear: both; max-width: 584px;">
+                    <div style = "display: inline-block; margin: auto; padding: 0.5%;" >
+                        <input type="submit" value="Google Search" name = "btnK" class = "cool-button-class" style= "border: transparent;">
                     </div>
-                    <div style = "display: inline-block; margin: auto; padding: 0.5%">
-                        <input type="submit" value="I'm feeling lucky" name = "btnI" style = "border: transparent; ">
+                    <div style = "display: inline-block; margin: auto; padding: 0.5%" >
+                        <input type="submit" value="I'm Feeling Lucky" name = "btnI" class = "cool-button-class" style = "border: transparent;">
                     </div>
                 </div>
             </form>
         </div>
-        <div id = "an-actual-footer" style = "display: block; bottom: 0; position: fixed;">
-            <div>
-                <div>
+        <div id = "an-actual-footer" style = "display: flex; bottom: 0; position: fixed; padding: 0 0 1.25em 2.75em;">
+            <div style = "display: flexbox; margin-right: auto; align-content: center;">
+                <div class = "cool">
                     <a href="https://about.google/?utm_source=google-PH&amp;utm_medium=referral&amp;utm_campaign=hp-footer&amp;fg=1">About</a>
                 </div>
-                <div>
+                <div class = "cool">
                     <a href="https://www.google.com/intl/en_ph/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&amp;utm_source=google.com&amp;utm_medium=referral&amp;utm_campaign=google_hpafooter&amp;fg=1">Advertising</a>
                 </div>
-                <div>
+                <div class = "cool">
                     <a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&amp;utm_source=google.com&amp;utm_medium=referral&amp;utm_campaign=google_hpbfooter&amp;fg=1">Business</a>
                 </div>
-                <div>
+                <div class = "cool">
                     <a href="https://google.com/search/howsearchworks/?fg=1"> How Search works </a>
                 </div>
             </div>
-            <div>
-                <div>
+            <div style = "display: flexbox; margin-left: auto; align-content: center; justify-content: flex-end; padding: 0 2.75em 0 0;">
+                <div class = "cool">
                     <a href="https://policies.google.com/privacy?hl=en-PH&amp;fg=1">Privacy</a>
                 </div>
-                <div>
+                <div class = "cool">
                     <a href="https://policies.google.com/terms?hl=en-PH&amp;fg=1">Terms</a>
                 </div>
-                <div>
-                    Settings
+                <div class = "cool">
+                    <a>Settings</a>
                 </div> <!-- due to not knowing javascript and that the material hasn't explored javascript, I won't do it for now-->
             </div>
             <!-- should be nested in settings div showed as a dropdown-->
